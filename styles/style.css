@@ -15,6 +15,8 @@ body {
     justify-content: center;
 }
 
+/* Header CSS */
+
 .main-container {
     height: 100%;
     width: 80%;
@@ -51,5 +53,35 @@ header {
 .social {
     margin-right: 0.8rem;
 }
+
+/* HR CSS */
+container {
+    width: 100%;
+}
+
+.hr {
+    height: 10px;
+    width: 100%;
+    background-image: url('../assets/hr-img.png');
+    margin: 1.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.print {
+    display: flex;
+    align-items: center;
+    
+}
+
+.print p {
+    font-size: 12px;
+    margin-left: 0.2rem;
+}
+
+
 
 
