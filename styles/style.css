@@ -93,13 +93,31 @@ container {
     background-image: url('../assets/list-bg.png');
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+    height: 250px
 }
 
 ul{
     list-style: none;
 }
 
-input:checked {
-    background-color: yellow;
-    border-radius: 10px;
+li{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+:checked {
+    display: block;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: floralwhite;
+    border-radius: 20%;
+    border: 1px solid #ddd;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: floralwhite;
 }
