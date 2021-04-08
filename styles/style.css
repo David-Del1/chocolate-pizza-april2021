@@ -124,7 +124,9 @@ article p{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 250px
+    height: 250px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #333;
 }
 
 ul{
@@ -137,6 +139,25 @@ ul{
     background-image: url('../assets/hr-img.png');
 }
 
+.delicious{
+    font-family: 'Yellowtail', cursive;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.container h1{
+    font-family: 'Markazi Text', serif;
+    color: #333;
+    font-size: 3rem;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.date{
+    font-size: .8rem;
+}
 
 /* Footer CSS */
 
@@ -178,6 +199,7 @@ footer img {
 
 .about-text h3 {
     margin-bottom: 0.5rem;
+    color: #333;
 }
 li{
     display: flex;
